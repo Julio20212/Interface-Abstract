@@ -1,0 +1,17 @@
+package interface1;
+
+public class PrincipalCalculos {
+
+	public static void main(String[] args) {
+		
+	Calculando calculando = new Calculando();
+		
+    System.out.println("A soma dos números é: " + calculando.somar());
+    System.out.println("A subtração dos números é: " + calculando.sub());
+    System.out.println("A multiplicação dos números é: " + calculando.mult());
+    System.out.println("A divisão dos números é: " + calculando.div());
+    System.out.println("O expoente de 2 é: " + calculando.exp());
+			
+	}
+}
+
