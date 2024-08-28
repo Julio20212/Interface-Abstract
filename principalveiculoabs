@@ -1,0 +1,25 @@
+package interface1;
+
+public class PrincipalVeiculosAbs {
+
+	public static void main(String[] args) {
+	
+	OnibusAbs busao = new OnibusAbs();
+	CarroAbs carro = new CarroAbs();
+	
+	System.out.println("BUSÃO");	
+	busao.acelerar();	
+	busao.frear();	
+	busao.ligar();	
+	busao.virar();
+
+	System.out.println("---------------------------");	
+
+	System.out.println("CARRO");	
+	carro.acelerar();	
+	carro.frear();	
+	carro.ligar();	
+	carro.virar();
+	
+	}
+}
